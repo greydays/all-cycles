@@ -11,10 +11,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="stylesheet" href="css/main.css">
 
-    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <!-- <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script> -->
   </head>
   <body>
     <!--[if lt IE 8]>
@@ -23,43 +24,49 @@
 
     <div class="header-container">
       <header class="clearfix">
-        <h2 class="wrapper header_h2">
-          <a href="https://www.facebook.com/allcycles"><span class="icon-facebook2"></span>Get involved <span class="mobile-hidden">at Facebook.com/allcycles</span></a>
+        <h2 class="header_h2">
+          <a href="https://www.facebook.com/allcycles"><span class="fa fa-facebook-square"></span>Get involved <span class="mobile-hidden"> at Facebook.com/allcycles</span></a>
         </h2>
-        <h1 class="title">mentrual products for folks in need.</h1>
+        <div class="header_banner">
+          <h1 class="title">menstrual products for folks in need.</h1>
+          <img src="images/logo.jpg" class="logo_img" alt="All Cycles - Seattle, WA">
+          <img src="images/pad.png" class="donate_img mobile-hidden" alt="DONATE!">
+        </div>
         <div class="social-links">
-          <a href=""><span class="icon-envelop"></span></a>
-          <a href="https://www.instagram.com/allcyclesseattle/"><span class="icon-instagram"></span></a>
-          <a href="https://twitter.com/allcyclessea"><span class="icon-twitter"></span></a>
-          <a href="https://www.facebook.com/allcycles"><span class="icon-facebook2"></span></a>
+          <a href=""><span class="fa fa-envelope"></span></a>
+          <a href="https://www.instagram.com/allcyclesseattle/"><span class="fa fa-instagram"></span></a>
+          <a href="https://twitter.com/allcyclessea"><span class="fa fa-twitter"></span></a>
+          <a href="https://www.facebook.com/allcycles"><span class="fa fa-facebook-square"></span></a>
         </div>
       </header>
     </div>
 
     <div class="main-container">
-      <div class="main wrapper clearfix">
+      <div class="main">
 
         <article>
-          <header>
+          <header class="about_all-cycles">
             <p>All Cycles is a grassroots Outreach Project for Seattle community members to bring menstrual supplies to folks in need.</p>
             <p>We gather anonymous donations of pads, tampons, wet wipes and underwear of various sizes and styles for homeless or income- insecure people in Seattle of all or no genders, who have cycles.</p>
           </header>
-          <section class="donation-drive_section">
+          <section class="donation-drive_section section_inset">
             <h2>Winter Donation Drive January 1st - February 20th</h2>
             <p>Donate today at one of our Seattle Drop-Off Locations or via our Online Wishlist!</p>
             <div class="button-link">
-              <a href=""><span class="icon-location"></span>View Locations</a>
+              <a href=""><span class="fa fa-map-marker"></span> View Locations</a>
             </div>
             <div class="button-link">
-              <a href=""><span class="icon-gift"></span>Online Wishlist</a>
+              <a href=""><span class="fa fa-gift"></span> Online Wishlist</a>
             </div>
           </section>
-          <section class="join_section">
+          <section class="join_section section_wrapper">
             <h2>Join our volunteer team!</h2>
-            <input name="first-name" type="text" placeholder="First Name" required>
-            <input name="last-name" type="text" placeholder="Last Name" required>
-            <input name="email-address" type="email" placeholder="Email Address" required>
-            <button class="join_button"><span class="icon-smile"></span>Join Team</button>
+            <form class="join_form" action="">
+              <input name="first-name" type="text" placeholder="First Name" required>
+              <input name="last-name" type="text" placeholder="Last Name" required>
+              <input name="email-address" type="email" placeholder="Email Address" required>
+              <button class="join_button"><span class="fa fa-smile-o"></span> Join Team</button>
+            </form>
           </section>
         </article>
 
@@ -67,7 +74,7 @@
     </div> <!-- #main-container -->
 
     <div class="footer-container">
-      <footer class="wrapper">
+      <footer class="section_wrapper">
         <h3>footer</h3>
       </footer>
     </div>

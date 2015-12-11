@@ -1,0 +1,223 @@
+/*
+Theme Name: All Cycles.
+Theme URI: http://allcycles.org/
+Description: Basic theme.
+Version: 1.0
+Author: Ryan Flaherty
+Author URI: http://allcycles.org/.
+*/
+
+
+/* ================== colors ====================
+header dark red    #681520
+header/logo red    #AA1E2A
+header/text black  #231F20
+body gray          #F1F2F2
+border gray        #D1D3D4
+*/
+
+body {
+  font: 16px/26px 'Open Sans', Helvetica, Helvetica Neue, Arial;
+  background-color: #F1F2F2;
+}
+.header-container {
+  background-color: #AA1E2A;
+}
+.mobile-hidden {
+  display: none;
+  visibility: hidden;
+}
+.title {
+  color: white;
+  font-size: 1.4em;
+  font-weight: 300;
+  margin: 0;
+}
+.header_banner {
+  width: 90%;
+  padding: 5%;
+  text-align: center;
+}
+.logo_img {
+  width: 20em;
+  margin: 0 auto;
+}
+.header_h2 {
+  text-transform: uppercase;
+  font-size: 1.4em;
+  font-weight: 700;
+  background-color: #681520;
+  text-align: center;
+  margin: 0 0 0 0;
+  padding: 0.75em 0;
+}
+.header_h2 .fa-facebook-square {
+  font-size: 1em;
+  padding-right: 0.5em;
+}
+p, input {
+  color: #231F20;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+.section_inset {
+  width: 80%;
+  margin: 1em 5%;
+  padding: 0 5%;
+}
+.section_wrapper {
+  width: 90%;
+  padding: 1.5em 5%;
+}
+.social-links {
+  background-color: #231F20;
+  text-align: center;
+  height: 1.75em;
+  padding: 0.5em 0;
+}
+.social-links a {
+  color: white;
+  font-size: 1.5em;
+  margin: 0 0.5em;
+}
+.button-link {
+  width: 11em;
+  padding: 0.5em;
+  background-color: #AA1E2A;
+  text-transform: uppercase;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+  font-weight: 600;
+}
+.about_all-cycles {
+  max-width: 40em;
+  margin: 0 auto;
+  padding: 0 1em;
+}
+.about_all-cycles p {
+  font-weight: 300;
+  font-size: 1.25em;
+}
+.donation-drive_section {
+  text-align: center;
+  background: white;
+  border: solid 2px #D1D3D4;
+}
+.donation-drive_section h2 {
+  color: #AA1E2A;
+  margin: 1em 0 0 0;
+}
+.donation-drive_section .button-link {
+  margin: 0 0 0.75em 0;
+}
+.donation-drive_section p {
+  font-size: 1.2em;
+  font-weight: 300;
+  margin: 0 0 1em 0;
+}
+.join_section {
+  background: #AA1E2A;
+  text-align: center;
+  color: white;
+}
+.join_section h2 {
+  text-transform: uppercase;
+}
+.join_form {
+  margin: 1em auto;
+  width: 21em;
+}
+input {
+  font-weight: 300;
+  font-size: 1em;
+  padding: 0 0.5em;
+}
+input, button {
+  border: none;
+}
+input[type="text"] {
+  width: 20em;
+  height: 2.5em;
+  border-radius: 12px;
+  margin: 0.5em auto;
+}
+input[type="email"] {
+  border-radius: 10px;
+  width: 20em;
+  height: 2.5em;
+  margin: 0.5em auto;
+}
+.join_button {
+  border-radius: 10px;
+  height: 2.5em;
+  width: 10em;
+  color: white;
+  background-color: #681520;
+  margin: 0.5em 0 0.5em 10em;
+  text-transform: uppercase;
+}
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 768px) {
+
+  .mobile-hidden {
+    visibility: visible;
+    display: inherit;
+  }
+  .title {
+    position: absolute;
+    top: 0.25em;
+    left: 7em;
+    z-index: 100;
+    font-size: 1.25em;
+  }
+  .header_banner {
+    margin: auto;
+    position: relative;
+    height: 13em;
+    width: 38em;
+    padding: 0;
+  }
+  .logo_img {
+    width: 12em;
+    position: absolute;
+    top: 1em;
+    left: 0;
+    z-index: 0;
+  }
+  .donate_img {
+    width: 12em;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    z-index: 0;
+  }
+  .donation-drive_section .button-link {
+    margin: 2em 0;
+  }
+  .donation-drive_section p {
+    margin: 0;
+  }
+  .join_form {
+    width: 28em;
+    margin: 1em auto;
+  }
+  input[type="text"] {
+    width: 11em;
+    margin: 0.5em 0.25em;
+  }
+  input[type="email"] {
+    width: 24em;
+    margin: 0.5em 0;
+  }
+  .join_button {
+    width: 8em;
+    margin: 0.5em 0 0.5em 17em;
+  }
+}

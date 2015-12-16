@@ -1,0 +1,27 @@
+.ss-form-container {
+  text-align: center;
+  width: 100%;
+  background-color: #AA1E2A;
+  color: white;
+}
+.ss-form-heading{
+  display: none;
+  visibility: hidden;
+}
+input#ss-submit {
+  border-radius: 10px;
+  height: 2.5em;
+  text-transform: uppercase;
+  width: 8em;
+  font-family: 'Open Sans';
+  color: white;
+  background-color: #681520;
+  font-weight: 400;
+}
+input[type="text"] {
+  width: 20em !important;
+  height: 2.5em;
+  border-radius: 12px;
+  margin: 0.5em auto;
+  background-color: white !important;
+}

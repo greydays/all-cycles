@@ -14,7 +14,7 @@
               <a href=""><span class="fa fa-map-marker"></span> View Locations</a>
             </div>
             <div class="button-link">
-              <a href=""><span class="fa fa-gift"></span> Online Wishlist</a>
+              <a href="http://smile.amazon.com/registry/wishlist/30WNGG5HG0EDL"><span class="fa fa-gift"></span> Online Wishlist</a>
             </div>
           </section>
           <section class="section_inset">
@@ -35,6 +35,7 @@
               <input name="email-address" type="email" placeholder="Email Address" required>
               <button class="join_button"><span class="fa fa-smile-o"></span> Join Team</button>
             </form>
+
           </section>
         </article>
 
